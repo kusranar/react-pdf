@@ -5961,15 +5961,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pdfjs-dist@npm:2.12.313":
+"pdfjs-dist@git+https://github.com/kusranar/pdfjs-dist#v2.12.313c":
   version: 2.12.313
-  resolution: "pdfjs-dist@npm:2.12.313"
+  resolution: "pdfjs-dist@https://github.com/kusranar/pdfjs-dist.git#commit=de258419c2d0cbf62dbca2d751c87e6182816d60"
   peerDependencies:
     worker-loader: ^3.0.8
   peerDependenciesMeta:
     worker-loader:
       optional: true
-  checksum: 0571ff3653d75e7eaf86c840c6fe83a92456c20b6f40c2de666df2e3c30de1e05a4920f18799a3d59005c73dcea1a6f45728845a20fdae9b08a3a774d13aee1b
+  checksum: 6edef1b4398aad17f7f6f4173b64e5eb5c1ec56f412e4bbd68c4064b47f85ce5b3516ebfb783b83654de12057abd4278d5ee6e05b56de96ed5f3356e06a0fded
   languageName: node
   linkType: hard
 
@@ -6214,7 +6214,7 @@ __metadata:
     make-event-props: ^1.1.0
     merge-class-names: ^1.1.1
     merge-refs: ^1.0.0
-    pdfjs-dist: 2.12.313
+    pdfjs-dist: "git+https://github.com/kusranar/pdfjs-dist#v2.12.313c"
     prettier: ^2.5.0
     pretty-quick: ^3.1.0
     prop-types: ^15.6.2
